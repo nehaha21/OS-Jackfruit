@@ -2,8 +2,7 @@
 
 ## 1. Team Information
 
-Name - Neha Rastogi
-SRN - PES1UG24AM175
+Name - Neha Rastogi | SRN - PES1UG24AM175
 
 ---
 
@@ -80,43 +79,43 @@ sudo rmmod monitor
 ### Screenshot 1 — Multi-container supervision
 Two containers (alpha, beta) started and running under one supervisor process.
 
-![Screenshot 1](screenshots/screenshot1.png)
 
 ### Screenshot 2 — Metadata tracking
 Output of `ps` command showing container ID, PID, state, exit code, and signal.
 
-![Screenshot 2](screenshots/screenshot1.png)
+![Screenshot 1,2](1,2.png)
 
 ### Screenshot 3 — Bounded-buffer logging
 Log file contents captured through the logging pipeline.
 
-![Screenshot 3](screenshots/screenshot3.png)
+![Screenshot 3](3.png)
 
 ### Screenshot 4 — CLI and IPC
 CLI command (`stop`) issued and supervisor responding with state update.
 
-![Screenshot 4](screenshots/screenshot4.png)
+![Screenshot 4](4.png)
 
 ### Screenshot 5 — Soft-limit warning
 `dmesg` showing SOFT LIMIT warning when container exceeds soft memory limit.
 
-![Screenshot 5](screenshots/screenshot5.png)
+![Screenshot 5,6](5,6.png)
 
 ### Screenshot 6 — Hard-limit enforcement
 `dmesg` showing HARD LIMIT kill and `ps` showing container state as `killed` with signal 9.
 
-![Screenshot 6](screenshots/screenshot5.png)
+![Screenshot 6](6.png)
 
 ### Screenshot 7 — Scheduling experiment
 Two CPU-bound containers with different nice values showing different CPU throughput.
 
-![Screenshot 7](screenshots/screenshot7.png)
+![Screenshot 7](7.png)
 
 ### Screenshot 8 — Clean teardown
 All containers reaped, supervisor clean exit, module unloaded with no zombies.
 
-![Screenshot 8](screenshots/screenshot8.png)
+![Screenshot 8(1)](8(1).png)
 
+![Screenshot 8(2)](8(2).png)
 ---
 
 ## 4. Engineering Analysis
