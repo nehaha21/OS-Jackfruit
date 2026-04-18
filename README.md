@@ -161,7 +161,3 @@ Linux uses the Completely Fair Scheduler (CFS), which assigns CPU time proportio
 
 `cpuhigh` achieved a higher accumulator value in the same wall-clock time, demonstrating that CFS allocated more CPU time to the higher-priority process. The ratio reflects the CFS weight difference between nice=-10 and nice=+10, which is approximately 110:1 in the kernel's weight table. In practice the observed ratio is lower due to I/O, scheduling overhead, and the single-CPU VirtualBox environment. The results confirm that Linux scheduling is not purely equal time-sharing — priority influences CPU allocation in a measurable and predictable way.
 ```
-
-Save as `README.md`, scp it:
-```
-scp -P 2222 "C:\Users\nehar\OneDrive\Documents\study\os\JOB\README.md" neha-rastogi@127.0.0.1:~/OS-Jackfruit/README.md
