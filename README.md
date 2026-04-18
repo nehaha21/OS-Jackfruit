@@ -2,7 +2,8 @@
 
 ## 1. Team Information
 
-Name - Neha Rastogi | SRN - PES1UG24AM175
+Neha Rastogi | PES1UG24AM175
+Kota Videesha | PES1UG24AM175
 
 ---
 
