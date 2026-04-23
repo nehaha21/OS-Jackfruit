@@ -2,8 +2,7 @@
 
 ## 1. Team Information
 
-- Neha Rastogi | PES1UG24AM175
-- Kota Videesha | PES1UG24AM140
+Neha Rastogi | PES1UG24AM175
 
 ---
 
